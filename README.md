@@ -7,7 +7,7 @@ Various methodological techniques have been developed to discover and predict th
 
 
 # carla 
-is Open-source simulator for autonomous driving research [https://carla.org/]. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites, environmental conditions, full control of all static and dynamic actors, maps generation and much more.
+is Open-source simulator for autonomous driving research [https://carla.org/]. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites, environmental conditions, full control of all static and dynamic actors, maps generation and much more.For this project we used the release CARLA 0.9.11 [https://carla.org/2020/12/22/release-0.9.11/] . 
 
 # Tools and Technologies
 * Carla simulation tool
@@ -27,6 +27,15 @@ The simulator uses the ROS sensor it detects vehicles and calculates the distanc
 The simulator uses the RSS sensor, when the vehicle approaches another vehicle, the sensor sends a signal to the system and the system reduces the speed
 
 <img width="715" alt="Screen Shot 2021-07-06 at 7 41 55 AM" src="https://user-images.githubusercontent.com/86910279/124543403-db5afd00-de2d-11eb-8035-35cabd18d83e.png">
+
+# Modular Decomposition 
+The following figure depicts different modules of CARLA simulator architecture that help to understand the working of the overall system. Each module is assigned a different task. These modules are set to predefined inputs according to which they perform their function and are interconnected through ROS interfaces. These allows the user to understand and interchange the modules with same function, input and output. On the other hand this modular approach allows to test and verify different settings and solutions of test environment.
+
+![Picture2](https://user-images.githubusercontent.com/86910279/124544100-232e5400-de2f-11eb-9f91-cfa1d05173de.png)
+
+According to above shown layout data flows from sensors and processor to different modules. These modules then control the vehicle in terms of steering, accelerating and braking. User can communicate with vehicle through Graphical User Interface, through which aimed destination can be achieved. Additionally, V2X module helps to communicate with other entities of the model.
+
+
 
 # Graphical User Interface Description
 In this part, we will show some pictures of when the CARLA simulator is running and explain the details about it.

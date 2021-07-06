@@ -16,8 +16,21 @@ The Carla Simulator was developed to support developers to design and verify aut
 is a complete suite of creation tools for game development, architectural and automotive
 visualization, live event production, training and simulation, and other real-time applications.
 
+# Sensors 
+
+ * # Robot Operating System (ROS)
+The simulator uses the ROS sensor it detects vehicles and calculates the distance between vehicles
+
+<img width="659" alt="Screen Shot 2021-07-06 at 7 39 02 AM" src="https://user-images.githubusercontent.com/86910279/124543114-5243c600-de2d-11eb-85ba-2c4b6383879f.png">
+
+* # Responsibility sensitive safety (RSS) 
+The simulator uses the RSS sensor, when the vehicle approaches another vehicle, the sensor sends a signal to the system and the system reduces the speed
+
+<img width="715" alt="Screen Shot 2021-07-06 at 7 41 55 AM" src="https://user-images.githubusercontent.com/86910279/124543403-db5afd00-de2d-11eb-8035-35cabd18d83e.png">
+
 # Graphical User Interface Description
 In this part, we will show some pictures of when the CARLA simulator is running and explain the details about it.
 
 * View of the map from the top
+
  ![Picture1](https://user-images.githubusercontent.com/86910279/124514950-ec345000-dde6-11eb-97b9-59e5d504b00b.png)

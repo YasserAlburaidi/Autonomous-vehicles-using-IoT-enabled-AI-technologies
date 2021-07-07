@@ -44,4 +44,47 @@ In this part, we will show some pictures of when the CARLA simulator is running 
 
  ![Picture1](https://user-images.githubusercontent.com/86910279/124514950-ec345000-dde6-11eb-97b9-59e5d504b00b.png)
  
+ * After adding the vehicles and walkers on the map
+
+ ![Picture1](https://user-images.githubusercontent.com/86910279/124770749-434f3780-df43-11eb-8d54-535b4940b291.png)
+
+* Run's manual control to drive 
+
+![Picture2](https://user-images.githubusercontent.com/86910279/124771182-9a550c80-df43-11eb-93cf-cde1e965d345.png)
+
+* A list of details to help with driving on the CARLA simulation
+
+![Picture1](https://user-images.githubusercontent.com/86910279/124771379-c1134300-df43-11eb-9c43-73b7401ec051.png)
+
+* Change weather on the map
+
+![3](https://user-images.githubusercontent.com/86910279/124771514-db4d2100-df43-11eb-91bf-fd0dd59274ff.png)
+
+* When the vehicle off the lane, details appear at the bottom of the screen
+
+![4](https://user-images.githubusercontent.com/86910279/124771760-12bbcd80-df44-11eb-8efc-5bec6551fb05.png)
+
+* Upon collision, collision details appear at the bottom of the screen 
+
+![5](https://user-images.githubusercontent.com/86910279/124771976-43036c00-df44-11eb-8c82-1322baf74308.png)
+
+![6](https://user-images.githubusercontent.com/86910279/124772124-67f7df00-df44-11eb-9ca8-52f2243ceee2.png)
+
+* run's the "Autopilot ", it is means drive by use the sensors 'RSS' on the road 
+
+![7](https://user-images.githubusercontent.com/86910279/124772345-9e355e80-df44-11eb-97cb-e2d00e4647d9.png) 
+
+* Stand completely on paths, pedestrians, and intersections and make sure of them before setting off, after run's '' autopilot " mode 
+
+![8](https://user-images.githubusercontent.com/86910279/124772526-c91fb280-df44-11eb-862d-2009ae24b6eb.png) 
+
+* Maintaining the path and not leaving it after operating the "autopilot" 
+
+![9](https://user-images.githubusercontent.com/86910279/124772791-fff5c880-df44-11eb-82c7-d5e6e67ba8ec.png)
+
+* Client bounding boxes to alert him to vehicles moving around him 
+
+![10](https://user-images.githubusercontent.com/86910279/124772942-27e52c00-df45-11eb-9338-ddbd40c9ffa7.png)
+
+
  # Future work 

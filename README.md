@@ -7,7 +7,7 @@ Various methodological techniques have been developed to discover and predict th
 
 
 # carla 
-is Open-source simulator for autonomous driving research [https://carla.org/]. CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites, environmental conditions, full control of all static and dynamic actors, maps generation and much more.For this project we used the release CARLA 0.9.11 [https://carla.org/2020/12/22/release-0.9.11/] . 
+is Open-source simulator for autonomous driving research [CARLA](https://carla.org/). CARLA has been developed from the ground up to support development, training, and validation of autonomous driving systems. In addition to open-source code and protocols, CARLA provides open digital assets (urban layouts, buildings, vehicles) that were created for this purpose and can be used freely. The simulation platform supports flexible specification of sensor suites, environmental conditions, full control of all static and dynamic actors, maps generation and much more.For this project we used the [release CARLA 0.9.11](https://carla.org/2020/12/22/release-0.9.11/) . 
 
 # Tools and Technologies
 * Carla simulation tool
